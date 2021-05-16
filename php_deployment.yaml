@@ -22,7 +22,8 @@ spec:
           path: /sour
       containers:
       - name: php
-        image: kiyange26773/mpesakya-dev-app:v1.0
+        #image: kiyange26773/mpesakya-dev-app:v1.0
+        image: kiyange26773/biokycappdevapp
         volumeMounts:
         - name: dir
           mountPath: /sour
